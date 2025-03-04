@@ -1,0 +1,133 @@
+/*.sidebar
+{
+    min-height: 100hv;
+     display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f4f9;
+    padding: 25px 15px;
+}
+.sidebar img{
+    width: 20px;
+}
+.sidebar menu
+{
+    display: block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sidebar .new-chat{
+    margin-top: 10px;
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 15px;
+    background-color: #e6eaf1;
+    border-radius: 50px;
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+}*/
+.sidebar {
+    min-height: 100vh; /* Correct typo for full viewport height */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Space out the top and bottom sections */
+    background-color: #f0f4f9;
+    padding: 25px 15px; /* Add padding around the sidebar */
+  }
+  
+  .sidebar img {
+    width: 20px; /* Set uniform icon size */
+  }
+  
+  .sidebar .menu {
+    display: block; /* Ensure it's block-level */
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* New Chat Section */
+  .sidebar .new-chat {
+    margin-top: 50px;
+    display: flex; /* Align icon and text horizontally */
+    align-items: center; /* Vertically center content */
+    gap: 10px; /* Add spacing between icon and text */
+    padding: 10px 15px;
+    background-color: #e6eaf1; /* Light background for visibility */
+    border-radius: 50px; /* Rounded corners for button style */
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  /* Top Section */
+  .sidebar .top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add spacing between elements */
+  }
+  
+  /* Bottom Section */
+  .sidebar .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Add spacing between bottom items */
+  }
+  
+  .sidebar .bottom-item {
+    display: flex; /* Align icon and text horizontally */
+    align-items: center; /* Vertically center content */
+    gap: 10px; /* Add spacing between icon and text */
+    cursor: pointer;
+    padding: 10px 0; /* Add vertical padding for clickable area */
+  }
+  
+  .sidebar .recent-entry {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: gray;
+  }
+  
+  .sidebar .recent-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar .recent{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar .recent-title
+  {
+    margin-top: 30px;
+    margin-bottom:20px;
+
+  }
+  .sidebar .recent-entry
+  {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding:10px;
+    padding-right: 40px;
+    border-radius: 50px;
+    color: #282828;
+    cursor: pointer;
+
+  }
+  .sidebar .recent-entry:hover
+  {
+    background-color: #e6eaf1;
+  }
+  .sidebar .bottom
+  {
+    display:flex;
+    flex-direction: column;
+  }
+  .sidebar .bottom-item{
+    padding-right: 10px;
+    cursor: pointer;
+  }
